@@ -1,0 +1,11 @@
+# Public Research and Implementation Rules
+
+1. **Keep the scope public and generic.** Use public provider information and general engineering patterns. Exclude confidential identities, product plans, architecture, credentials, and private conversation details. Write deliverables in English and give each Markdown file a descriptive H1.
+2. **Support material claims.** Use official sources for model IDs, API contracts, language coverage, pricing, and availability. Attribute independent evaluations to their publisher. Record source and access dates, units, limitations, and unresolved disagreements.
+3. **Separate kinds of evidence.** Label external measurements, provider claims, calculated estimates, editorial scoring, and proposed designs. Do not describe desk research as a listening experiment or a live integration test.
+4. **Compare equivalent scopes.** Distinguish TTS components, native audio conversation models, and hosted platforms. Explain subscription allocation, overages, token or character denominators, workload assumptions, and excluded costs. Missing data is not zero.
+5. **Make results reproducible.** Keep ranking inputs with the study, regenerate derived tables using `node scripts/rank.mjs --write`, and run `node scripts/rank.mjs` plus `node scripts/validate.mjs`. Recheck the gates affected by a fix.
+6. **Keep examples honest.** Match verified request shapes; identify runtime and credentials needed. Keep long-lived secrets on servers. Explain differences in transport, audio encoding, events, interruption, and authentication. Mark examples as not live tested unless they were executed successfully.
+7. **Preserve scope and paths.** Use a spec for new studies and material changes. Keep study URLs stable, update indexes, and prefer shared glossary entries over duplicate definitions. Do not copy third-party documentation wholesale.
+8. **Follow current authorization.** Continue ordinary reversible work without redundant confirmation. External publication and communication follow the user's explicit instructions. Packaging a ZIP is a local deliverable, not permission to publish.
+9. **Record real completion.** Review acceptance criteria and write actual results to `.agents/evidence/validation.md`. Update state only to what the evidence supports. Disclose remaining gaps instead of inventing checks or conclusions.

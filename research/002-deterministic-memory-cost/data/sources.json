@@ -1,0 +1,263 @@
+[
+  {
+    "id": "frugalgpt",
+    "title": "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance",
+    "publisher": "Chen, Zaharia and Zou",
+    "source_date": "2023-05-09; arXiv v1",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2305.05176v1",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "routellm",
+    "title": "RouteLLM: Learning to Route LLMs with Preference Data",
+    "publisher": "Ong et al.",
+    "source_date": "2025-02-23; arXiv v4",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2406.18665v4",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "palimpzest",
+    "title": "Palimpzest: Optimizing AI-Powered Analytics with Declarative Query Processing",
+    "publisher": "Liu et al.; CIDR",
+    "source_date": "2025; CIDR proceedings",
+    "source_class": "original-paper",
+    "url": "https://www.vldb.org/cidrdb/papers/2025/p12-liu.pdf",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "tremu",
+    "title": "TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues",
+    "publisher": "Ge et al.; ACL Findings",
+    "source_date": "2025; arXiv v2 reviewed",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2502.01630v2",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "memgpt",
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "publisher": "Packer et al.",
+    "source_date": "2023 initial preprint; arXiv v2 reviewed",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2310.08560v2",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "mem0",
+    "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+    "publisher": "Chhikara et al.; Mem0",
+    "source_date": "2025-04-28; arXiv v1",
+    "source_class": "vendor-paper",
+    "url": "https://arxiv.org/html/2504.19413v1",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "zep",
+    "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
+    "publisher": "Rasmussen et al.; Zep",
+    "source_date": "2025-01-20; arXiv v1",
+    "source_class": "vendor-paper",
+    "url": "https://arxiv.org/html/2501.13956v1",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "longmemeval",
+    "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+    "publisher": "Wu et al.; ICLR",
+    "source_date": "2025 conference; arXiv v2 reviewed",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2410.10813v2",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "llmlingua",
+    "title": "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models",
+    "publisher": "Jiang et al.; EMNLP",
+    "source_date": "2023-12-06; arXiv v2",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2310.05736v2",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "gptcache",
+    "title": "GPTCache: An Open-Source Semantic Cache for LLM Applications Enabling Faster Answers and Cost Savings",
+    "publisher": "Bang; NLP-OSS",
+    "source_date": "2023-12; published workshop paper",
+    "source_class": "original-paper",
+    "url": "https://aclanthology.org/2023.nlposs-1.24/",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "vcache",
+    "title": "vCache: Verified Semantic Prompt Caching",
+    "publisher": "Schroeder et al.",
+    "source_date": "2026-02-21; arXiv v5",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2502.03771v5",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "sleep-compute",
+    "title": "Sleep-time Compute: Beyond Inference Scaling at Test-time",
+    "publisher": "Lin et al.",
+    "source_date": "2025-04-17; arXiv v1",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2504.13171v1",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "letta-files",
+    "title": "Benchmarking AI Agent Memory: Is a Filesystem All You Need?",
+    "publisher": "Letta",
+    "source_date": "2025-08-12; research blog",
+    "source_class": "vendor-report",
+    "url": "https://www.letta.com/blog/benchmarking-ai-agent-memory/",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "lost-middle",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "publisher": "Liu et al.; TACL",
+    "source_date": "2024-02-19; published paper",
+    "source_class": "original-paper",
+    "url": "https://aclanthology.org/2024.tacl-1.9/",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "locomo",
+    "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+    "publisher": "Maharana et al.; ACL",
+    "source_date": "2024-08; published ACL version",
+    "source_class": "original-paper",
+    "url": "https://aclanthology.org/2024.acl-long.747/",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "openai-latency",
+    "title": "Latency optimization",
+    "publisher": "OpenAI",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://developers.openai.com/api/docs/guides/latency-optimization",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "openai-cache",
+    "title": "Prompt caching",
+    "publisher": "OpenAI",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "claude-cache",
+    "title": "Prompt caching",
+    "publisher": "Anthropic",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "redis-cache",
+    "title": "LLM Cache API",
+    "publisher": "Redis",
+    "source_date": "RedisVL 0.17.0; page date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://redis.io/docs/latest/develop/ai/redisvl/0.17.0/api/cache/",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "litellm-budget",
+    "title": "Budgets, Rate Limits",
+    "publisher": "LiteLLM",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://docs.litellm.ai/docs/proxy/users",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "bullmq-dedup",
+    "title": "Deduplication",
+    "publisher": "Taskforce.sh / BullMQ",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://docs.bullmq.io/guide/jobs/deduplication",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "bullmq-ids",
+    "title": "Job Ids",
+    "publisher": "Taskforce.sh / BullMQ",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://docs.bullmq.io/guide/jobs/job-ids",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "bullmq-idempotence",
+    "title": "Idempotent jobs",
+    "publisher": "Taskforce.sh / BullMQ",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://docs.bullmq.io/patterns/idempotent-jobs",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "openai-batch",
+    "title": "Batch API",
+    "publisher": "OpenAI",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://developers.openai.com/api/docs/guides/batch",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "graphrag-index",
+    "title": "GraphRAG Indexing",
+    "publisher": "Microsoft",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://microsoft.github.io/graphrag/index/overview/",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "graphrag-global",
+    "title": "Global Search",
+    "publisher": "Microsoft",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://microsoft.github.io/graphrag/query/global_search/",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "graphrag-paper",
+    "title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+    "publisher": "Edge et al.",
+    "source_date": "2024 initial preprint; arXiv v2 reviewed",
+    "source_class": "original-paper",
+    "url": "https://arxiv.org/html/2404.16130v2",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "realtime-cost",
+    "title": "Managing costs",
+    "publisher": "OpenAI",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://developers.openai.com/api/docs/guides/realtime-costs",
+    "accessed_on": "2026-09-06"
+  },
+  {
+    "id": "realtime-vad",
+    "title": "Voice activity detection (VAD)",
+    "publisher": "OpenAI",
+    "source_date": "Living documentation; revision date not displayed",
+    "source_class": "official-documentation",
+    "url": "https://developers.openai.com/api/docs/guides/realtime-vad",
+    "accessed_on": "2026-09-06"
+  }
+]

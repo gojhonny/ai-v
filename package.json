@@ -1,0 +1,14 @@
+{
+  "name": "ai-v-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public AI Voice Engineering research and a spec-driven research harness",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "rank": "node scripts/rank.mjs",
+    "rank:write": "node scripts/rank.mjs --write",
+    "spec": "node scripts/new-spec.mjs"
+  }
+}
