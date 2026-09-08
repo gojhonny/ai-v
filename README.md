@@ -10,6 +10,7 @@ AI-V is an English-language research collection covering speech models, voice ag
 | --- | --- | --- | --- |
 | 001 | [AI Voice Engineering: Cost vs. Human-Like Speech](research/001-cost-vs-naturalness/README.md) | How do voice options compare when optimizing for cost and naturalness, and how can JavaScript applications integrate them? | 2026-09-06 |
 | 002 | [AI Voice Engineering: Deterministic Memory Controls for Lower LLM Cost](research/002-deterministic-memory-cost/README.md) | When can deterministic policies, selective memory and cache reuse reduce total inference cost without losing conversational quality? | 2026-09-06 |
+| 003 | [AI Voice Engineering: Canonical TypeScript Configuration for Natural Speech APIs](research/003-typescript-voice-adapters/README.md) | How can natural voice APIs share configuration, request adapters and web component playback? | 2026-09-08 |
 
 ## Start reading
 
@@ -19,6 +20,7 @@ AI-V is an English-language research collection covering speech models, voice ag
 - [Scoring and cost methodology](research/001-cost-vs-naturalness/methodology.md)
 - [Study 002: deterministic memory and inference cost](research/002-deterministic-memory-cost/README.md)
 - [Memory cost evaluation protocol](research/002-deterministic-memory-cost/evaluation.md)
+- [Study 003: canonical TypeScript voice adapters](research/003-typescript-voice-adapters/README.md)
 - [Voice engineering glossary](docs/glossary.md)
 
 ## Collection structure
@@ -51,7 +53,7 @@ This collection is AI-assisted desk research. It does not claim that its authors
 
 The [agent harness](AGENTS.md) follows a [spec-driven workflow](.agents/README.md), with research rules, reusable prompts, project state, review evidence, and numbered specifications. [Spec 001](specs/001-research-collection.md) describes this initial collection.
 
-With Node.js 22 or newer:
+With Node.js 24 or newer:
 
 ```bash
 node scripts/validate.mjs

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "benchmark",
+    "publisher": "Artificial Analysis",
+    "title": "Text to Speech Leaderboard",
+    "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
+    "claim_family": "Preference ranking; not a live implementation test",
+    "source_class": "benchmark_publisher",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "cartesia-model",
+    "publisher": "Cartesia",
+    "title": "Sonic 3.6",
+    "url": "https://docs.cartesia.ai/build-with-cartesia/tts-models/latest",
+    "claim_family": "Model and language identity",
+    "source_class": "primary_documentation",
+    "source_date": "Snapshot 2026-08-27",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "cartesia-bytes",
+    "publisher": "Cartesia",
+    "title": "Text-to-Speech Bytes",
+    "url": "https://docs.cartesia.ai/api-reference/tts/bytes",
+    "claim_family": "API version, UUID voice, request and binary response",
+    "source_class": "primary_documentation",
+    "source_date": "API version 2026-08-14",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "cartesia-formats",
+    "publisher": "Cartesia",
+    "title": "Output Audio Format",
+    "url": "https://docs.cartesia.ai/build-with-cartesia/capability-guides/tts-output-audio-format",
+    "claim_family": "Container and encoding compatibility",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "cartesia-voices",
+    "publisher": "Cartesia",
+    "title": "List Voices",
+    "url": "https://docs.cartesia.ai/api-reference/voices/list",
+    "claim_family": "Voice catalog and pagination",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "cartesia-controls",
+    "publisher": "Cartesia",
+    "title": "Volume, Speed, and Emotion",
+    "url": "https://docs.cartesia.ai/build-with-cartesia/capability-guides/volume-speed-emotion",
+    "claim_family": "Model controls and limits",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "cartesia-websocket",
+    "publisher": "Cartesia",
+    "title": "Text-to-Speech WebSocket",
+    "url": "https://docs.cartesia.ai/api-reference/tts/websocket",
+    "claim_family": "Context events and cancellation",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "inworld-model",
+    "publisher": "Inworld",
+    "title": "TTS Models",
+    "url": "https://docs.inworld.ai/tts/tts-models",
+    "claim_family": "Flagship and Flash identities",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "inworld-speech",
+    "publisher": "Inworld",
+    "title": "Synthesize Speech",
+    "url": "https://docs.inworld.ai/api-reference/ttsAPI/texttospeech/synthesize-speech",
+    "claim_family": "Request, WAV, language, control semantics and response",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "inworld-voices",
+    "publisher": "Inworld",
+    "title": "List Voices in a Workspace",
+    "url": "https://docs.inworld.ai/api-reference/voiceAPI/voiceservice/list-voices",
+    "claim_family": "Voice IDs and pagination",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "inworld-stream",
+    "publisher": "Inworld",
+    "title": "Synthesize Speech Stream",
+    "url": "https://docs.inworld.ai/api-reference/ttsAPI/texttospeech/synthesize-speech-stream",
+    "claim_family": "Streaming formats and chunk headers",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "inworld-stream-example",
+    "publisher": "Inworld",
+    "title": "JavaScript Streaming Example",
+    "url": "https://github.com/inworld-ai/inworld-api-examples/blob/main/tts/js/example_tts_stream.js",
+    "claim_family": "Incremental newline-delimited JSON parsing",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "inworld-websocket",
+    "publisher": "Inworld",
+    "title": "Bidirectional Speech WebSocket",
+    "url": "https://docs.inworld.ai/api-reference/ttsAPI/texttospeech/synthesize-speech-websocket",
+    "claim_family": "Flush and close semantics",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "speechify-model",
+    "publisher": "Speechify",
+    "title": "Models",
+    "url": "https://docs.speechify.ai/build/guides/concepts/models",
+    "claim_family": "Simba 3.2 English-only and curated voices",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "speechify-speech",
+    "publisher": "Speechify",
+    "title": "Create Speech",
+    "url": "https://docs.speechify.ai/build/api-reference/v1/audio/speech",
+    "claim_family": "Request, base64 response and explicit format",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "speechify-version",
+    "publisher": "Speechify",
+    "title": "API Versioning",
+    "url": "https://docs.speechify.ai/build/guides/concepts/api-versioning",
+    "claim_family": "Speechify-Version header",
+    "source_class": "primary_documentation",
+    "source_date": "API version example 2026-06-28",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "speechify-voices",
+    "publisher": "Speechify",
+    "title": "List Voices",
+    "url": "https://docs.speechify.ai/build/api-reference/v1/voices/get",
+    "claim_family": "Model compatibility and pagination",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "speechify-stream",
+    "publisher": "Speechify",
+    "title": "Streaming",
+    "url": "https://docs.speechify.ai/build/guides/text-to-speech/streaming",
+    "claim_family": "Raw audio stream formats and errors",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "luna",
+    "publisher": "VUI Labs",
+    "title": "Voice AI APIs",
+    "url": "https://www.vuilabs.ai/",
+    "claim_family": "Public partial snippet; complete API contract unresolved",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "breeze",
+    "publisher": "BreezeBlue",
+    "title": "Breeze TTS 2 Model Card",
+    "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
+    "claim_family": "Self-hosted multipart API, PCM output, languages and license notice",
+    "source_class": "primary_documentation",
+    "source_date": "Model release 2026-08-25",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "breeze-code",
+    "publisher": "BreezeBlue",
+    "title": "Breeze TTS Official Inference",
+    "url": "https://github.com/breezeblue-ai/breeze-tts",
+    "claim_family": "Python model deployment boundary",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "eleven-model",
+    "publisher": "ElevenLabs",
+    "title": "Models",
+    "url": "https://elevenlabs.io/docs/overview/models",
+    "claim_family": "Exact conversational model and voice synthesis scope",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "eleven-guide",
+    "publisher": "ElevenLabs",
+    "title": "Stream Dialogue in Real Time",
+    "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/websockets/realtime-tdd",
+    "claim_family": "WebSocket initialization, ordered audio and finalization",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "eleven-websocket",
+    "publisher": "ElevenLabs",
+    "title": "Text-to-Dialogue WebSocket",
+    "url": "https://elevenlabs.io/docs/api-reference/text-to-dialogue/ttd-websocket",
+    "claim_family": "Protocol options, errors and turn final events",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "eleven-voices",
+    "publisher": "ElevenLabs",
+    "title": "List Voices",
+    "url": "https://elevenlabs.io/docs/api-reference/voices/search",
+    "claim_family": "Account voices and pagination",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "eleven-protocols",
+    "publisher": "ElevenLabs",
+    "title": "TTS versus TTD WebSockets",
+    "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/websockets/tts-vs-ttd-websockets",
+    "claim_family": "Do not reuse legacy TTS protocol for conversational model",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "google-speech",
+    "publisher": "Google",
+    "title": "Speech Generation",
+    "url": "https://ai.google.dev/gemini-api/docs/speech-generation",
+    "claim_family": "Current Interactions example, voices, language and model",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "google-legacy",
+    "publisher": "Google",
+    "title": "Speech Generation with Generate Content",
+    "url": "https://ai.google.dev/gemini-api/docs/generate-content/speech-generation",
+    "claim_family": "Documented legacy API variant and PCM wrapping",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "google-reference",
+    "publisher": "Google",
+    "title": "Generating Content API Reference",
+    "url": "https://ai.google.dev/api/generate-content",
+    "claim_family": "Endpoint, nested speech configuration and candidate finish reason",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "smallest-model",
+    "publisher": "Smallest AI",
+    "title": "Lightning v3.1 Pro Model Card",
+    "url": "https://docs.smallest.ai/models/model-cards/text-to-speech/lightning-v-3-1-pro",
+    "claim_family": "Model and regional voices",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "smallest-speech",
+    "publisher": "Smallest AI",
+    "title": "Synthesize Speech",
+    "url": "https://docs.smallest.ai/models/api-reference/text-to-speech/synthesize-speech",
+    "claim_family": "Endpoint, binary response and Accept header",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "smallest-voices",
+    "publisher": "Smallest AI",
+    "title": "Get Waves Voices",
+    "url": "https://docs.smallest.ai/models/api-reference/text-to-speech/get-waves-voices",
+    "claim_family": "Hyphenated voice pool path versus underscored model ID",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "smallest-stream",
+    "publisher": "Smallest AI",
+    "title": "Streaming",
+    "url": "https://docs.smallest.ai/models/documentation/text-to-speech-lightning/streaming",
+    "claim_family": "SSE versus WebSocket envelopes",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "soniox-model",
+    "publisher": "Soniox",
+    "title": "TTS Models",
+    "url": "https://soniox.com/docs/tts/models",
+    "claim_family": "Exact model and GA release",
+    "source_class": "primary_documentation",
+    "source_date": "GA release 2026-08-11",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "soniox-speech",
+    "publisher": "Soniox",
+    "title": "Generate Speech",
+    "url": "https://soniox.com/docs/tts/rest-api/generate-speech",
+    "claim_family": "Dedicated TTS host, native fields, binary response",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "soniox-voices",
+    "publisher": "Soniox",
+    "title": "Voices",
+    "url": "https://soniox.com/docs/tts/concepts/voices",
+    "claim_family": "Voice names and clone IDs",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "soniox-language",
+    "publisher": "Soniox",
+    "title": "Supported Languages",
+    "url": "https://soniox.com/docs/tts/concepts/supported-languages",
+    "claim_family": "Base language codes including pt",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "soniox-websocket",
+    "publisher": "Soniox",
+    "title": "TTS WebSocket API",
+    "url": "https://soniox.com/docs/api-reference/tts/websocket-api",
+    "claim_family": "Per-stream cancellation and terminal events",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "openai-guide",
+    "publisher": "OpenAI",
+    "title": "Text to Speech",
+    "url": "https://developers.openai.com/api/docs/guides/text-to-speech",
+    "claim_family": "gpt-4o-mini-tts, marin, instructions and formats",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "openai-speech",
+    "publisher": "OpenAI",
+    "title": "Create Speech API Reference",
+    "url": "https://developers.openai.com/api/reference/resources/audio/subresources/speech/methods/create",
+    "claim_family": "Speech endpoint native fields",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "anthropic-models",
+    "publisher": "Anthropic",
+    "title": "Models Overview",
+    "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+    "claim_family": "Text output reasoning models; not ranked speech synthesis",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "anthropic-cookbook",
+    "publisher": "Anthropic",
+    "title": "Claude Cookbook",
+    "url": "https://docs.anthropic.com/en/docs/resources/cookbook",
+    "claim_family": "Voice assistant recipe uses external speech components",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "decode-audio",
+    "publisher": "MDN Web Docs",
+    "title": "BaseAudioContext decodeAudioData",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/decodeAudioData",
+    "claim_family": "Complete-file decoding, not arbitrary audio chunks",
+    "source_class": "primary_documentation",
+    "source_date": "Page modified 2024-07-29",
+    "accessed_on": "2026-09-08"
+  },
+  {
+    "id": "play-audio",
+    "publisher": "MDN Web Docs",
+    "title": "HTMLMediaElement play",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play",
+    "claim_family": "Playback promise and autoplay rejection",
+    "source_class": "primary_documentation",
+    "source_date": "Not displayed; living documentation",
+    "accessed_on": "2026-09-08"
+  }
+]

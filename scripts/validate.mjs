@@ -140,6 +140,10 @@ const memoryCheck = spawnSync(process.execPath, [path.join(root, 'scripts/valida
 check(memoryCheck.status === 0, `Study 002 validation failed\n${memoryCheck.stderr}`);
 if (memoryCheck.status === 0) process.stdout.write(memoryCheck.stdout);
 
+const voiceCheck = spawnSync(process.execPath, [path.join(root, 'scripts/validate-voice-adapters.mjs')], { encoding: 'utf8' });
+check(voiceCheck.status === 0, `Study 003 validation failed\n${voiceCheck.stderr}`);
+if (voiceCheck.status === 0) process.stdout.write(voiceCheck.stdout);
+
 assert.equal(failures.length, 0, failures.join('\n'));
 console.log(`PASS: ${files.length} files; ${markdown.size} titled Markdown documents; ${internalLinks} internal links; ${records.length} sources; ${data.models.length} TTS entries; ${syntaxChecks} JavaScript syntax checks.`);
 console.log('PASS: derived tables, billing inputs, research dates, source register and harness state are consistent.');

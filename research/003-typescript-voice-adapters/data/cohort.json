@@ -1,0 +1,106 @@
+{
+  "research_date": "2026-09-08",
+  "selection_basis": "First ten models from the prior naturalness cohort, not the current global top ten",
+  "models": [
+    {
+      "cohort_rank": 1,
+      "global_rank_observed": 1,
+      "name": "Sonic 3.6",
+      "provider": "Cartesia",
+      "model_id": "sonic-3.6",
+      "elo": 1282,
+      "ci95_plus_minus": 17,
+      "api_status": "documented"
+    },
+    {
+      "cohort_rank": 2,
+      "global_rank_observed": 2,
+      "name": "TTS 2",
+      "provider": "Inworld",
+      "model_id": "inworld-tts-2",
+      "elo": 1252,
+      "ci95_plus_minus": 18,
+      "api_status": "documented"
+    },
+    {
+      "cohort_rank": 3,
+      "global_rank_observed": 4,
+      "name": "Simba 3.2",
+      "provider": "Speechify",
+      "model_id": "simba-3.2",
+      "elo": 1240,
+      "ci95_plus_minus": 14,
+      "api_status": "documented"
+    },
+    {
+      "cohort_rank": 4,
+      "global_rank_observed": 5,
+      "name": "Luna TTS",
+      "provider": "VUI Labs",
+      "model_id": null,
+      "elo": 1228,
+      "ci95_plus_minus": 14,
+      "api_status": "partial-unverified"
+    },
+    {
+      "cohort_rank": 5,
+      "global_rank_observed": 6,
+      "name": "TTS 2 Flash",
+      "provider": "Inworld",
+      "model_id": "inworld-tts-2-flash",
+      "elo": 1222,
+      "ci95_plus_minus": 15,
+      "api_status": "documented"
+    },
+    {
+      "cohort_rank": 6,
+      "global_rank_observed": 7,
+      "name": "Breeze TTS 2",
+      "provider": "BreezeBlue",
+      "model_id": "BreezeBlue/Breeze-TTS-2",
+      "elo": 1215,
+      "ci95_plus_minus": 17,
+      "api_status": "documented-self-hosted"
+    },
+    {
+      "cohort_rank": 7,
+      "global_rank_observed": 8,
+      "name": "Eleven v3 Conversational",
+      "provider": "ElevenLabs",
+      "model_id": "eleven_v3_conversational",
+      "elo": 1210,
+      "ci95_plus_minus": 15,
+      "api_status": "documented-websocket"
+    },
+    {
+      "cohort_rank": 8,
+      "global_rank_observed": 9,
+      "name": "Gemini 3.1 Flash TTS",
+      "provider": "Google",
+      "model_id": "gemini-3.1-flash-tts-preview",
+      "elo": 1208,
+      "ci95_plus_minus": 12,
+      "api_status": "documented-preview"
+    },
+    {
+      "cohort_rank": 9,
+      "global_rank_observed": 12,
+      "name": "Lightning v3.1 Pro",
+      "provider": "Smallest AI",
+      "model_id": "lightning_v3.1_pro",
+      "elo": 1190,
+      "ci95_plus_minus": 14,
+      "api_status": "documented"
+    },
+    {
+      "cohort_rank": 10,
+      "global_rank_observed": 13,
+      "name": "TTS Realtime v2",
+      "provider": "Soniox",
+      "model_id": "tts-rt-v2",
+      "elo": 1179,
+      "ci95_plus_minus": 11,
+      "api_status": "documented"
+    }
+  ]
+}
