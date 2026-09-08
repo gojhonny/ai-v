@@ -6,7 +6,7 @@ Specifications define material research and repository changes before implementa
 | --- | --- | --- |
 | 001 | [Build the Public Research Collection and Harness](001-research-collection.md) | Done |
 | 002 | [Deterministic Memory Controls for LLM Cost](002-study-deterministic-memory-controls-for-llm-cost.md) | InReview |
-| 003 | [Canonical TypeScript Voice Provider Adapters](003-canonical-typescript-voice-provider-adapters.md) | InReview |
+| 003 | [Canonical TypeScript Voice Provider Adapters](003-canonical-typescript-voice-provider-adapters.md) | Done |
 
 ## Create a specification
 

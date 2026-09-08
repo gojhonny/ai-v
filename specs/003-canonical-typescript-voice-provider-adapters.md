@@ -1,6 +1,6 @@
 # Spec 003: Canonical TypeScript Voice Provider Adapters
 
-**Status:** InReview
+**Status:** Done
 
 **Created:** 2026-09-08
 
@@ -27,7 +27,7 @@ Private product information, provider credentials, paid synthesis, a new listeni
 - [x] Implement and type-check canonical configuration, supported native transformers and response adapters.
 - [x] Exercise meaningful contract, audio, failure and cancellation tests without paid calls.
 - [x] Date the research, cite consequential claims, and deliver the study and companion package.
-- [ ] Publish the reviewed Study 003 changes on a topic branch and open a pull request against main.
+- [x] Publish the reviewed Study 003 changes on a topic branch and open a pull request against main.
 
 ## Verification plan
 
@@ -39,7 +39,7 @@ Draft and Ready scope checks completed on 2026-09-08 before implementation. The 
 
 ## Implementation and evidence
 
-Research complete: 44 primary/benchmark sources, ten-model cohort, canonical importers, eight hosted-provider adapters, a separate Breeze example and web component boundaries. Strict TypeScript compilation and 14 offline tests passed. Repository structural checks passed. The dated Markdown/TypeScript archive and patch were delivered against the inspected base commit. Pull request delivery is now being prepared from that same base, verified against current main. No live synthesis or browser playback was performed.
+Research complete: 44 primary/benchmark sources, ten-model cohort, canonical importers, eight hosted-provider adapters, a separate Breeze example and web component boundaries. Strict TypeScript compilation and 14 offline tests passed. Repository structural checks passed. The dated Markdown/TypeScript archive and patch were delivered against the inspected base commit. [Pull request #1](https://github.com/gojhonny/ai-v/pull/1) delivers the study from that same base, verified against current main. The PR remains open for review; completion here means the requested PR was created, not that it was merged. No live synthesis or browser playback was performed.
 
 ## Risks and open questions
 

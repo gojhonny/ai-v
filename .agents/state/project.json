@@ -3,7 +3,7 @@
   "project": "ai-v",
   "updated_on": "2026-09-08",
   "active_spec": "specs/003-canonical-typescript-voice-provider-adapters.md",
-  "status": "InReview",
+  "status": "Done",
   "workflow": [
     "Draft",
     "Ready",
@@ -15,11 +15,12 @@
   "delivery": {
     "format": "pull_request",
     "scope": "Study 003 and collection navigation/harness updates",
-    "status": "Prepared",
+    "status": "PullRequestCreated",
     "repository": "gojhonny/ai-v",
     "base": "main",
     "branch": "docs/SPEC-003-typescript-voice-adapters",
-    "previous_archive": "ai-v-study-003-typescript-voice-adapters-2026-09-08.zip"
+    "previous_archive": "ai-v-study-003-typescript-voice-adapters-2026-09-08.zip",
+    "url": "https://github.com/gojhonny/ai-v/pull/1"
   },
   "verification": {
     "status": "Passed",
@@ -35,7 +36,6 @@
     "real_browser_playback": "Not performed"
   },
   "next_actions": [
-    "Publish the validated topic branch and create the requested pull request against main.",
     "When integrating, verify account-accessible voice catalogs and run controlled live synthesis and browser playback tests."
   ]
 }
