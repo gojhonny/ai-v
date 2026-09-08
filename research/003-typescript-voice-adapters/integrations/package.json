@@ -1,0 +1,13 @@
+{
+  "name": "ai-v-voice-adapter-reference",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.mjs",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": { "typescript": "7.0.2" }
+}

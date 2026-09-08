@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "project": "ai-v",
-  "updated_on": "2026-09-06",
-  "active_spec": "specs/002-study-deterministic-memory-controls-for-llm-cost.md",
+  "updated_on": "2026-09-08",
+  "active_spec": "specs/003-canonical-typescript-voice-provider-adapters.md",
   "status": "InReview",
   "workflow": [
     "Draft",
@@ -11,15 +11,15 @@
     "InReview",
     "Done"
   ],
-  "active_study": "research/002-deterministic-memory-cost/README.md",
+  "active_study": "research/003-typescript-voice-adapters/README.md",
   "delivery": {
     "format": "pull_request",
-    "scope": "Study 002 and collection navigation/harness updates",
-    "external_publication_requested": true,
-    "target_branch": "main",
-    "status": "BlockedByIntegrationAccess",
-    "reason": "GitHub branch creation returned HTTP 403: Resource not accessible by integration.",
-    "prepared_branch": "research/002-deterministic-memory-cost"
+    "scope": "Study 003 and collection navigation/harness updates",
+    "status": "Prepared",
+    "repository": "gojhonny/ai-v",
+    "base": "main",
+    "branch": "docs/SPEC-003-typescript-voice-adapters",
+    "previous_archive": "ai-v-study-003-typescript-voice-adapters-2026-09-08.zip"
   },
   "verification": {
     "status": "Passed",
@@ -28,13 +28,14 @@
       "node scripts/validate.mjs",
       "node scripts/rank.mjs",
       "node scripts/memory-cost.mjs",
-      "git diff --check"
+      "npm run check (Study 003 integrations)"
     ],
+    "scope": "Offline source, structure, strict TypeScript and mocked transport/playback checks",
     "live_provider_calls": "Not performed",
-    "scope": "Local structural, syntax, citation-register and arithmetic checks; remote CI not run."
+    "real_browser_playback": "Not performed"
   },
   "next_actions": [
-    "Restore GitHub integration write access for this repository.",
-    "Publish the reviewed changes as a PR to main, run required remote checks, and merge only if they pass."
+    "Publish the validated topic branch and create the requested pull request against main.",
+    "When integrating, verify account-accessible voice catalogs and run controlled live synthesis and browser playback tests."
   ]
 }

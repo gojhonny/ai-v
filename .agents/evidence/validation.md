@@ -71,3 +71,30 @@ The included GitHub Actions workflow runs these checks after the project is adde
 The review covered Study 002's README, source register, structured inputs, cost model and evaluation protocol; the new arithmetic scripts; and changed root index, glossary, spec/state and validation files. Its roughly 5,000-word main report is desk research with engineering proposals and executed arithmetic, not a production-performance claim.
 
 The repository remains InReview because the requested PR and conditional merge have not been delivered. The next step is restoring integration write access, publishing this scoped change, checking required statuses for the submitted head, and merging only after they pass. No permission or validation gate was bypassed.
+
+## 2026-09-08: Study 003, TypeScript voice configuration and adapters
+
+Reviewed the previous ten-model cohort against the benchmark publisher and 44 registered primary/benchmark sources. Read-only remote inspection confirmed the current main tree at `6d91e20fc33cc8956d996de509814de41856b800`; Study 003 was prepared on an isolated local branch from that commit. No remote branch, pull request, merge, provider synthesis, or credential discovery was performed for this task.
+
+- `node scripts/validate.mjs`: passed. The collection has 68 files, 29 titled Markdown documents and 168 internal links; Study 002 arithmetic and Study 003 dated-source/cohort/contract checks passed. The validator checks 15 JavaScript module syntaxes.
+- `node scripts/rank.mjs`: passed; Study 001 ranking reproduced without changing its inputs.
+- `node scripts/memory-cost.mjs`: passed; all six Study 002 scenarios reproduced.
+- `npm install --ignore-scripts --no-audit --no-fund` in Study 003 integrations: dependency installation completed without lifecycle scripts. Strict checking used TypeScript 7.0.2 and Node.js 24.19.0.
+- `npm run check` in Study 003 integrations: strict compilation and all 14 offline tests passed. Tests cover input mapping, unsupported capabilities, server authorization boundaries, provider response shapes, PCM/WAV handling, WebSocket finalization, local cancellation, stale responses and autoplay recovery. Breeze's multipart example is fixture-tested separately.
+- Independent review found three lifecycle/policy defects: discarding audio after blocked autoplay, reserving quota before input validation, and playback after a reentrant stop callback. All were corrected and covered by focused tests.
+- `git diff --check`: passed for tracked changes; the staged patch is checked again during packaging.
+- Public-content review: all 68 repository files inspected by a targeted pattern scan; no private product names, credentials, internal citation markers or workspace paths found. Source-to-claim and Markdown structure review completed.
+- Visual limitations: no local Chromium/Chrome executable was available. Markdown was structurally checked; no rendered browser or audible playback result is claimed. Browser tests use a fake media element and synthetic bytes.
+
+Reviewed paths: the complete `research/003-typescript-voice-adapters/` tree; root README and package metadata; Study 003 specification; spec index; project state; this evidence log; `scripts/validate.mjs`; `scripts/validate-voice-adapters.mjs`. Provider contracts that remain unresolved are retained in the study's source register. Remote CI was not run for this new study. The deliverable is a dated Markdown/TypeScript archive and a patch against the inspected base commit, not a production SDK.
+
+Packaging verification: the initial 70-entry archive passed ZIP CRC checks and byte comparison with all 68 repository files. `git apply --check` and actual application against the inspected base succeeded; the resulting 68 files matched the prepared snapshot exactly. The final archive includes the complete snapshot, a patch and delivery instructions; installed dependencies, Git metadata and private research working notes are excluded. Metadata-only evidence updates are checked again when the final patch/archive is rebuilt.
+
+
+## 2026-09-08: Study 003 pull request preparation
+
+The follow-up request authorizes a topic branch and pull request against `gojhonny/ai-v` main. Read-only inspection confirmed main remains at `6d91e20fc33cc8956d996de509814de41856b800`, matching the prepared study base, with no open pull requests. The specification, index and active state now reflect this delivery request.
+
+Repository validation and ranking reproduction passed again. Study 003 strict TypeScript checking and all 14 offline tests passed again. The study content and implementation are unchanged from the reviewed archive. The existing limits on live provider calls and real browser playback still apply. Remote publication and CI outcomes will be recorded after they occur.
+
+A bounded publication review found no blocking scope, privacy, navigation or evidence-claim issues in the 28 changed files. `git diff --cached --check` passed. GitHub topic-branch creation succeeded for `docs/SPEC-003-typescript-voice-adapters`; commit upload and PR creation are the remaining delivery steps.
