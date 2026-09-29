@@ -16,11 +16,11 @@
     "format": "pull_request",
     "scope": "Study 003 and collection navigation/harness updates",
     "status": "PullRequestCreated",
-    "repository": "gojhonny/ai-v",
+    "repository": "jonatassales/ai-v",
     "base": "main",
     "branch": "docs/SPEC-003-typescript-voice-adapters",
     "previous_archive": "ai-v-study-003-typescript-voice-adapters-2026-09-08.zip",
-    "url": "https://github.com/gojhonny/ai-v/pull/1"
+    "url": "https://github.com/jonatassales/ai-v/pull/1"
   },
   "verification": {
     "status": "Passed",

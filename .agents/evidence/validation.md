@@ -93,12 +93,16 @@ Packaging verification: the initial 70-entry archive passed ZIP CRC checks and b
 
 ## 2026-09-08: Study 003 pull request preparation
 
-The follow-up request authorizes a topic branch and pull request against `gojhonny/ai-v` main. Read-only inspection confirmed main remains at `6d91e20fc33cc8956d996de509814de41856b800`, matching the prepared study base, with no open pull requests. The specification, index and active state now reflect this delivery request.
+The follow-up request authorizes a topic branch and pull request against `jonatassales/ai-v` main. Read-only inspection confirmed main remains at `6d91e20fc33cc8956d996de509814de41856b800`, matching the prepared study base, with no open pull requests. The specification, index and active state now reflect this delivery request.
 
 Repository validation and ranking reproduction passed again. Study 003 strict TypeScript checking and all 14 offline tests passed again. The study content and implementation are unchanged from the reviewed archive. The existing limits on live provider calls and real browser playback still apply. Remote publication and CI outcomes will be recorded after they occur.
 
 A bounded publication review found no blocking scope, privacy, navigation or evidence-claim issues in the 28 changed files. `git diff --cached --check` passed. GitHub topic-branch creation succeeded for `docs/SPEC-003-typescript-voice-adapters`; commit upload and PR creation are the remaining delivery steps.
 
-Publication succeeded: commit `dabba776df2b38b6a722330c758dfc96d5e1db3d` was published to the topic branch and [pull request #1](https://github.com/gojhonny/ai-v/pull/1) was opened against main. It contains the 28 reviewed files. No merge was performed. The active specification is Done because the current delivery request was to create the PR. Remote CI results are separate from the local checks above.
+Publication succeeded: commit `dabba776df2b38b6a722330c758dfc96d5e1db3d` was published to the topic branch and [pull request #1](https://github.com/jonatassales/ai-v/pull/1) was opened against main. It contains the 28 reviewed files. No merge was performed. The active specification is Done because the current delivery request was to create the PR. Remote CI results are separate from the local checks above.
 
-GitHub Actions passed for the initial published study commit: the [pull request run](https://github.com/gojhonny/ai-v/actions/runs/34212719976) and [push run](https://github.com/gojhonny/ai-v/actions/runs/34212685770) both completed successfully. These workflows run the repository validation and ranking checks; strict TypeScript checking was performed locally. The final delivery-record update also passed local repository validation and staged whitespace checks.
+GitHub Actions passed for the initial published study commit: the [pull request run](https://github.com/jonatassales/ai-v/actions/runs/34212719976) and [push run](https://github.com/jonatassales/ai-v/actions/runs/34212685770) both completed successfully. These workflows run the repository validation and ranking checks; strict TypeScript checking was performed locally. The final delivery-record update also passed local repository validation and staged whitespace checks.
+
+## 2026-09-28 owner-reference cleanup
+
+The repository links and active-state repository identifier now use the current owner. `node scripts/validate.mjs` and `node scripts/rank.mjs` passed; `git diff --check` passed. The ranking command was read-only. No live provider calls were made.

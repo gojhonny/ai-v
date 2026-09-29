@@ -6,7 +6,7 @@
 
 **Study:** `research/003-typescript-voice-adapters/README.md`
 
-**Delivery:** Dated English Markdown research and TypeScript companion code in a pull request against `gojhonny/ai-v` main. The project archive was delivered previously.
+**Delivery:** Dated English Markdown research and TypeScript companion code in a pull request against `jonatassales/ai-v` main. The project archive was delivered previously.
 
 ## Objective
 
@@ -35,11 +35,11 @@ Run repository validation and ranking reproduction. Run TypeScript strict checki
 
 ## Authorization and workflow
 
-Draft and Ready scope checks completed on 2026-09-08 before implementation. The research and archive delivery completed before the follow-up request to create a pull request on 2026-09-08. That request explicitly authorizes publishing these changes to a topic branch in `gojhonny/ai-v` and opening a pull request against main. The established collection format remains English Markdown with a dated study. No additional approval is needed for this publication; merging is outside this follow-up request.
+Draft and Ready scope checks completed on 2026-09-08 before implementation. The research and archive delivery completed before the follow-up request to create a pull request on 2026-09-08. That request explicitly authorizes publishing these changes to a topic branch in `jonatassales/ai-v` and opening a pull request against main. The established collection format remains English Markdown with a dated study. No additional approval is needed for this publication; merging is outside this follow-up request.
 
 ## Implementation and evidence
 
-Research complete: 44 primary/benchmark sources, ten-model cohort, canonical importers, eight hosted-provider adapters, a separate Breeze example and web component boundaries. Strict TypeScript compilation and 14 offline tests passed. Repository structural checks passed. The dated Markdown/TypeScript archive and patch were delivered against the inspected base commit. [Pull request #1](https://github.com/gojhonny/ai-v/pull/1) delivers the study from that same base, verified against current main. The PR remains open for review; completion here means the requested PR was created, not that it was merged. No live synthesis or browser playback was performed.
+Research complete: 44 primary/benchmark sources, ten-model cohort, canonical importers, eight hosted-provider adapters, a separate Breeze example and web component boundaries. Strict TypeScript compilation and 14 offline tests passed. Repository structural checks passed. The dated Markdown/TypeScript archive and patch were delivered against the inspected base commit. [Pull request #1](https://github.com/jonatassales/ai-v/pull/1) delivers the study from that same base, verified against current main. The PR remains open for review; completion here means the requested PR was created, not that it was merged. No live synthesis or browser playback was performed.
 
 ## Risks and open questions
 
